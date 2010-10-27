@@ -1,1145 +1,0 @@
-Tpdc2010Viewer
-v7
-r0
-t309828611.273508
-cCheck dependencies
-cCpResource build/Debug-iphoneos/PDC10.app/ResourceRules.plist "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist"
-cProcessInfoPlistFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Info.plist pdc2010Viewer-Info.plist
-cCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/MainWindow.xib
-cCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/RootViewController.xib
-cCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListView.xib
-cCopyPNGFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Icon@2x.png Icon@2x.png
-cCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.xib
-cProcessPCH /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch.gch pdc2010Viewer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch.gch pdc2010Viewer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/main.o /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010ViewerAppDelegate.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/RootViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/ScheduleModel.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionListViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/main.o /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010ViewerAppDelegate.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/RootViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/ScheduleModel.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionListViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10 normal armv6
-cLd /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10 normal armv7
-cCreateUniversalBinary /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10 normal "armv6 armv7"
-cGenerateDSYMFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app.dSYM /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10
-cProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/embedded.mobileprovision
-cTouch /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-cProcessProductPackaging "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent
-cCodeSign /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
-c000000004C5A527F0000000000002033
-t1280987775
-s8243
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
-c000000004C57A57A0000000000001A5C
-t1280812410
-s6748
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/AtomEntry.h
-c000000004C8FC21600000000000008BA
-t1284489750
-s2234
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/AtomParser.h
-c000000004C8FC2160000000000000D93
-t1284489750
-s3475
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ContentStream.h
-c000000004C8FC2160000000000000428
-t1284489750
-s1064
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/CredentialBase.h
-c000000004C8FC2160000000000000342
-t1284489750
-s834
-i<Foundation/Foundation.h>
-i"CredentialType.h"
-i"HttpProxy.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/CredentialType.h
-c000000004C8FC216000000000000035C
-t1284489750
-s860
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/DataServiceQuery.h
-c000000004C8FC2160000000000000BD9
-t1284489750
-s3033
-i"MSODataResponseDelegate.h"
-i"ObjectContext.h"
-i"QueryOperationResponse.h"
-i"DataServiceRequestException.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/DataServiceQueryContinuation.h
-c000000004C8FC2160000000000000395
-t1284489750
-s917
-i"QueryComponents.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/DataServiceRequestArgs.h
-c000000004C8FC2160000000000000448
-t1284489750
-s1096
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/DataServiceRequestException.h
-c000000004C8FC21600000000000003AD
-t1284489750
-s941
-i<Foundation/Foundation.h>
-i<Foundation/NSException.h>
-i"QueryOperationResponse.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/DataServiceSaveStream.h
-c000000004C8FC2180000000000000499
-t1284489752
-s1177
-i"DataServiceRequestArgs.h"
-i"ContentStream.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/DataServiceStreamResponse.h
-c000000004C8FC2180000000000000403
-t1284489752
-s1027
-i"HttpResponse.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/Dictionary.h
-c000000004C8FC218000000000000070B
-t1284489752
-s1803
-i"ODataObject.h"
-i"ODataEntity.h"
-i"Pair.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/HTTPHeaders.h
-c000000004C8FC2180000000000000462
-t1284489752
-s1122
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/HttpProxy.h
-c000000004C8FC21800000000000003A2
-t1284489752
-s930
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/HttpRequest.h
-c000000004C8FC2180000000000000599
-t1284489752
-s1433
-i"HTTPHeaders.h"
-i"HttpProxy.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/HttpResponse.h
-c000000004C8FC21800000000000005D3
-t1284489752
-s1491
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/MSODataResponseDelegate.h
-c000000004C8FC21A00000000000002A4
-t1284489754
-s676
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ODataBool.h
-c000000004C8FC21A000000000000030B
-t1284489754
-s779
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ODataDelegate.h
-c000000004C8FC21A00000000000002EB
-t1284489754
-s747
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ODataEntity.h
-c000000004C8FC21A000000000000045D
-t1284489754
-s1117
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ODataGUID.h
-c000000004C8FC21A00000000000002A6
-t1284489754
-s678
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ODataObject.h
-c000000004C8FC21A0000000000000887
-t1284489754
-s2183
-i<Foundation/Foundation.h>
-i"mProperties.h"
-i"ODataBool.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ODataSVC.h
-c000000004C8FC21A0000000000000733
-t1284489754
-s1843
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ObjectContext.h
-c000000004C8FC21A0000000000003170
-t1284489754
-s12656
-i<Foundation/Foundation.h>
-i"MSODataResponseDelegate.h"
-i"ObjectContextDelegate.h"
-i"ODataDelegate.h"
-i"ODataEntity.h"
-i"ODataObject.h"
-i"RelatedEnd.h"
-i"ResourceBox.h"
-i"Dictionary.h"
-i"HttpRequest.h"
-i"HttpResponse.h"
-i"QueryOperationResponse.h"
-i"DataServiceRequestException.h"
-i"AtomEntry.h"
-i"AtomParser.h"
-i"Utility.h"
-i"DataServiceStreamResponse.h"
-i"ODataSVC.h"
-i"CredentialBase.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ObjectContextDelegate.h
-c000000004C8FC21A00000000000002A5
-t1284489754
-s677
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/Pair.h
-c000000004C8FC21C000000000000039D
-t1284489756
-s925
-i<Foundation/Foundation.h>
-i"ODataObject.h"
-i"ODataEntity.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/QueryComponents.h
-c000000004C8FC21C000000000000039D
-t1284489756
-s925
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/QueryOperationResponse.h
-c000000004C8FC21C00000000000007F3
-t1284489756
-s2035
-i"DataServiceQueryContinuation.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/RelatedEnd.h
-c000000004C8FC21C0000000000000635
-t1284489756
-s1589
-i"ODataEntity.h"
-i"ODataObject.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/ResourceBox.h
-c000000004C8FC21C000000000000113E
-t1284489756
-s4414
-i"ODataEntity.h"
-i"ODataObject.h"
-i"RelatedEnd.h"
-i"DataServiceSaveStream.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/Utility.h
-c000000004C8FC21E000000000000071A
-t1284489758
-s1818
-i"ODataObject.h"
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include/mProperties.h
-c000000004C8FC2180000000000000AD9
-t1284489752
-s2777
-i<Foundation/Foundation.h>
-
-N/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release/libMSODataLib.a
-c000000004C8FEEB800000000002434E0
-t1284501176
-s2372832
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.h
-c000000004CC7623100000000000001CB
-t1288135217
-s459
-i<UIKit/UIKit.h>
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m
-c000000004CC763960000000000001C3A
-t1288135574
-s7226
-i"RootViewController.h"
-i"ScheduleModel.h"
-i"SessionListViewController.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.h
-c000000004CC71F670000000000003BC0
-t1288118119
-s15296
-i"ODataObject.h"
-i"ObjectContext.h"
-i"DataServiceQuery.h"
-i"ODataGUID.h"
-i"ODataBool.h"
-i"mProperties.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m
-c000000004CC71F67000000000000A203
-t1288118119
-s41475
-i"ScheduleModel.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.h
-c000000004CC7525F00000000000000EF
-t1288131167
-s239
-i<UIKit/UIKit.h>
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.m
-c000000004CC7525F000000000000113A
-t1288131167
-s4410
-i"SessionDetailView.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.xib
-c000000004CC752700000000000001C9C
-t1288131184
-s7324
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.h
-c000000004CC756D000000000000001AC
-t1288132304
-s428
-i<UIKit/UIKit.h>
-i"ScheduleModel.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m
-c000000004CC75CF10000000000001D72
-t1288133873
-s7538
-i"SessionDetailViewController.h"
-i"ScheduleModel.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.xib
-c000000004CC752700000000000001C9C
-t1288131184
-s7324
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListView.xib
-c000000004CC7396A0000000000001C96
-t1288124778
-s7318
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.h
-c000000004CC76274000000000000019D
-t1288135284
-s413
-i<UIKit/UIKit.h>
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m
-c000000004CC762CD00000000000019D9
-t1288135373
-s6617
-i"SessionListViewController.h"
-i"SessionDetailViewController.h"
-i"ScheduleModel.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.xib
-c000000004CC7396A0000000000001C96
-t1288124778
-s7318
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.h
-c000000004CC71CB000000000000001E3
-t1288117424
-s483
-i<UIKit/UIKit.h>
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m
-c000000004CC751440000000000000B7C
-t1288130884
-s2940
-i"pdc2010ViewerAppDelegate.h"
-i"RootViewController.h"
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/Icon@2x.png
-c000000004CC743080000000000000B23
-t1288127240
-s2851
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/MainWindow.xib
-c000000004CC7513F0000000000005300
-t1288130879
-s21248
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/RootViewController.xib
-c000000004CC7601200000000000047A0
-t1288134674
-s18336
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-t1288135811
-s476
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app.dSYM
-t1288135811
-s102
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Icon@2x.png
-t1288135808
-s3308
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Info.plist
-t1288135808
-s725
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/MainWindow.nib
-t1288135808
-s1998
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10
-t1288135810
-s859416
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PkgInfo
-t1288135808
-s8
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/ResourceRules.plist
-t1288135808
-s485
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/RootViewController.nib
-t1288135808
-s1574
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/SessionDetailView.nib
-t1288135808
-s1516
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/SessionListView.nib
-t1288135808
-s1516
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/embedded.mobileprovision
-t1288135811
-s7468
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app
-t1288135575
-s476
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app.dSYM
-t1288135575
-s102
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Icon@2x.png
-t1288127270
-s3308
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Info.plist
-t1288121581
-s749
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/MainWindow.nib
-t1288130884
-s1998
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/PkgInfo
-t1288121581
-s8
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/ResourceRules.plist
-t1288118208
-s485
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/RootViewController.nib
-t1288134678
-s1574
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/SessionDetailView.nib
-t1288131554
-s1516
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/SessionDetailViewController.nib
-t2
-s0
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/SessionListView.nib
-t1288124888
-s1516
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/SessionListViewController.nib
-t2
-s0
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-t1288121581
-s7468
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer
-t1288135574
-s859416
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdciPhoneLogo@2x.png
-t2
-s0
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10
-t1288135810
-s429624
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10.LinkFileList
-c000000004CC764800000000000000369
-t1288135808
-s873
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/RootViewController.o
-t1288135810
-s53772
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/ScheduleModel.o
-t1288135810
-s174768
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailView.o
-t2
-s0
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailViewController.o
-t1288135810
-s51180
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionListViewController.o
-t1288135810
-s46920
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/main.o
-t1288135809
-s6500
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer
-t1288135574
-s429624
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer.LinkFileList
-c000000004CC753E20000000000000369
-t1288131554
-s873
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010ViewerAppDelegate.o
-t1288135810
-s50932
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10
-t1288135810
-s425240
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10.LinkFileList
-c000000004CC764800000000000000369
-t1288135808
-s873
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/RootViewController.o
-t1288135810
-s53484
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/ScheduleModel.o
-t1288135810
-s169284
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailView.o
-t2
-s0
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailViewController.o
-t1288135810
-s50792
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionListViewController.o
-t1288135810
-s46788
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/main.o
-t1288135810
-s6484
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer
-t1288135574
-s425240
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer.LinkFileList
-c000000004CC753E20000000000000369
-t1288131554
-s873
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010ViewerAppDelegate.o
-t1288135810
-s50840
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent
-t1288135811
-s430
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent
-t1288121581
-s430
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/main.m
-c000000004CC71CB0000000000000016D
-t1288117424
-s365
-i<UIKit/UIKit.h>
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer_Prefix.pch
-c000000004CC71CB0000000000000014C
-t1288117424
-s332
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Ryan/Documents/XCode/pdc2010Viewer/pdciPhoneLogo@2x.png
-c000000004CC743080000000000000B23
-t1288127240
-s2851
-
-N/Users/Ryan/Library/MobileDevice/Provisioning Profiles/865611D0-87C8-4BAE-9EE2-638897A9CF2B.mobileprovision
-c000000004C06908B0000000000001CB0
-t1275498635
-s7344
-
-N/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision
-c000000004CC72A700000000000001D2C
-t1288120944
-s7468
-
-N/Users/Ryan/Library/MobileDevice/Provisioning Profiles/F4ACD303-0225-4836-8D1C-3E4ED0A0F68A.mobileprovision
-c000000004C2A121F0000000000001BCE
-t1277825567
-s7118
-
-N/var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch.gch
-t1288135809
-s10294832
-
-N/var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch.gch
-t1288135809
-s9836080
-
-Npdc2010Viewer-Info.plist
-c000000004CC72CED0000000000000378
-t1288121581
-s888
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies309828607#309828608#0(0"0(0#1#0"8806677920#0"0#
-
-CCodeSign /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-s309828611.075698
-e309828611.273464
-r1
-xCodeSign
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-lSLF07#2@39"CodeSign build/Debug-iphoneos/PDC10.app309828611#309828611#0(0"0(0#0#72"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app8801025088#701"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate"    /usr/bin/codesign -f -s "iPhone Developer: Ryan Cain (SJPFBKYY78)" --resource-rules=/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/ResourceRules.plist --entitlements /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app0#
-
-CCodeSign /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app
-s309828375.124298
-e309828375.315063
-r1
-xCodeSign
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app
-lSLF07#2@47"CodeSign build/Debug-iphoneos/pdc2010Viewer.app309828375#309828375#0(0"0(0#0#80"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app8785555744#725"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate"    /usr/bin/codesign -f -s "iPhone Developer: Ryan Cain (SJPFBKYY78)" --resource-rules=/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/ResourceRules.plist --entitlements /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/RootViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828609.907837
-e309828610.137460
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/RootViewController.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m309828609#309828610#0(0"0(0#0#70"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m8807104480#6876"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/RootViewController.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/ScheduleModel.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828609.909824
-e309828610.763255
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/ScheduleModel.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m309828609#309828610#0(0"0(0#0#65"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m8806323360#6866"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/ScheduleModel.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailView.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828610.008586
-e309828610.246135
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailViewController.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m: In function '-[SessionDetailViewController tableView:heightForRowAtIndexPath:]':
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: 'SessionDetailViewController' may not respond to '-getTextForIndexPath:'
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: (Messages without a matching method signature
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: will be assumed to return 'id' and accept
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: '...' as arguments.)
-lSLF07#2@87"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m309828610#309828610#0(716"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m: In function '-[SessionDetailViewController tableView:heightForRowAtIndexPath:]':/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: 'SessionDetailViewController' may not respond to '-getTextForIndexPath:'/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: (Messages without a matching method signature/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: will be assumed to return 'id' and accept/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: '...' as arguments.)2(22@72"'SessionDetailViewController' may not respond to '-getTextForIndexPath:'309828610#162#166#0(6@79"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m309826673#72#0#72#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309828610#328#139#0(6@79"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m309826673#72#0#72#0#0"0(0#0#79"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m8803320064#6894"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionDetailViewController.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionListViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828609.968479
-e309828610.141461
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionListViewController.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m309828609#309828610#0(0"0(0#0#77"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m8805416000#6890"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/SessionListViewController.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/main.o /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828609.903956
-e309828609.968177
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/main.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m309828609#309828609#0(0"0(0#0#48"/Users/Ryan/Documents/XCode/pdc2010Viewer/main.m8807935584#6840"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010ViewerAppDelegate.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828609.906046
-e309828610.008306
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010ViewerAppDelegate.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m309828609#309828610#0(0"0(0#0#76"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m8807423904#6888"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010ViewerAppDelegate.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/RootViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828610.229105
-e309828610.402660
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/RootViewController.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m309828610#309828610#0(0"0(0#0#70"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m8803173408#6876"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/RootViewController.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/RootViewController.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/ScheduleModel.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828610.246301
-e309828610.811312
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/ScheduleModel.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m309828610#309828610#0(0"0(0#0#65"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m8789461504#6866"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/ScheduleModel.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/ScheduleModel.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailView.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828610.402820
-e309828610.548125
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailViewController.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m: In function '-[SessionDetailViewController tableView:heightForRowAtIndexPath:]':
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: 'SessionDetailViewController' may not respond to '-getTextForIndexPath:'
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: (Messages without a matching method signature
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: will be assumed to return 'id' and accept
-o/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: '...' as arguments.)
-lSLF07#2@87"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m309828610#309828610#0(716"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m: In function '-[SessionDetailViewController tableView:heightForRowAtIndexPath:]':/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: 'SessionDetailViewController' may not respond to '-getTextForIndexPath:'/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: (Messages without a matching method signature/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: will be assumed to return 'id' and accept/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m:72: warning: '...' as arguments.)2(22@72"'SessionDetailViewController' may not respond to '-getTextForIndexPath:'309828610#162#166#0(6@79"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m309826673#72#0#72#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)309828610#328#139#0(6@79"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m309826673#72#0#72#0#0"0(0#0#79"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m8799599360#6894"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionDetailViewController.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionListViewController.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828610.275445
-e309828610.417561
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionListViewController.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m309828610#309828610#0(0"0(0#0#77"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m8801288768#6890"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/SessionListViewController.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/main.o /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828610.137625
-e309828610.228946
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/main.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m309828610#309828610#0(0"0(0#0#48"/Users/Ryan/Documents/XCode/pdc2010Viewer/main.m8808358080#6840"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/main.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/main.o0#
-
-CCompileC build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010ViewerAppDelegate.o /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828610.141835
-e309828610.275083
-r1
-xCompileC
-xbuild/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010ViewerAppDelegate.o
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m309828610#309828610#0(0"0(0#0#76"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m8807718144#6888"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -include /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/pdc2010ViewerAppDelegate.m -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010ViewerAppDelegate.o0#
-
-CCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.xib
-s309828608.157232
-e309828608.624537
-r1
-xCompileXIB
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.xib
-lSLF07#2@40"CompileXIB Classes/SessionDetailView.xib309828608#309828608#0(0"0(0#0#71"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.xib8802137600#623"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/SessionDetailView.nib /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailView.xib --sdk "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk"0#
-
-CCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionDetailViewController.xib
-r0
-
-CCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListView.xib
-s309828608.036066
-e309828608.516206
-r1
-xCompileXIB
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListView.xib
-lSLF07#2@38"CompileXIB Classes/SessionListView.xib309828608#309828608#0(0"0(0#0#69"/Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListView.xib8802790944#619"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/SessionListView.nib /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListView.xib --sdk "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk"0#
-
-CCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/Classes/SessionListViewController.xib
-r0
-
-CCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/MainWindow.xib
-s309828608.034332
-e309828608.529763
-r1
-xCompileXIB
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib309828608#309828608#0(0"0(0#0#56"/Users/Ryan/Documents/XCode/pdc2010Viewer/MainWindow.xib8803243968#601"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/MainWindow.nib /Users/Ryan/Documents/XCode/pdc2010Viewer/MainWindow.xib --sdk "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk"0#
-
-CCompileXIB /Users/Ryan/Documents/XCode/pdc2010Viewer/RootViewController.xib
-s309828608.035078
-e309828608.625579
-r1
-xCompileXIB
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib309828608#309828608#0(0"0(0#0#64"/Users/Ryan/Documents/XCode/pdc2010Viewer/RootViewController.xib8803043936#617"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/RootViewController.nib /Users/Ryan/Documents/XCode/pdc2010Viewer/RootViewController.xib --sdk "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk"0#
-
-CCopyPNGFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Icon@2x.png Icon@2x.png
-s309828608.037183
-e309828608.156980
-r1
-xCopyPNGFile
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Icon@2x.png
-xIcon@2x.png
-lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/PDC10.app/Icon@2x.png Icon@2x.png309828608#309828608#0(0"0(0#0#53"/Users/Ryan/Documents/XCode/pdc2010Viewer/Icon@2x.png8802712960#619"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv COPY_COMMAND "/Developer/Xcode 3.2.4/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp"    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Ryan/Documents/XCode/pdc2010Viewer/Icon@2x.png /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Icon@2x.png0#
-
-CCopyPNGFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Icon@2x.png Icon@2x.png
-s309820070.015615
-e309820070.116106
-r1
-xCopyPNGFile
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Icon@2x.png
-xIcon@2x.png
-lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/pdc2010Viewer.app/Icon@2x.png Icon@2x.png309820070#309820070#0(0"0(0#0#53"/Users/Ryan/Documents/XCode/pdc2010Viewer/Icon@2x.png8658205664#627"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv COPY_COMMAND "/Developer/Xcode 3.2.4/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp"    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Ryan/Documents/XCode/pdc2010Viewer/Icon@2x.png /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Icon@2x.png0#
-
-CCopyPNGFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdciPhoneLogo@2x.png pdciPhoneLogo@2x.png
-r0
-
-CCpResource build/Debug-iphoneos/PDC10.app/ResourceRules.plist "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist"
-s309828608.027226
-e309828608.034215
-r1
-xCpResource
-xbuild/Debug-iphoneos/PDC10.app/ResourceRules.plist
-x/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@106"Copy /Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist309828608#309828608#0(0"0(0#0#101"/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8803593856#536"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app0#
-
-CCpResource build/Debug-iphoneos/pdc2010Viewer.app/ResourceRules.plist "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist"
-s309811008.552607
-e309811008.589786
-r1
-xCpResource
-xbuild/Debug-iphoneos/pdc2010Viewer.app/ResourceRules.plist
-x/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@106"Copy /Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist309811008#309811008#0(0"0(0#0#101"/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8602916224#544"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app0#
-
-CCreateUniversalBinary /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10 normal "armv6 armv7"
-s309828610.904375
-e309828610.912610
-r1
-xCreateUniversalBinary
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10
-xnormal
-xarmv6 armv7
-lSLF07#2@79"CreateUniversalBinary build/Debug-iphoneos/PDC10.app/PDC10 normal "armv6 armv7"309828610#309828610#0(0"0(0#0#53"/Users/Ryan/Documents/XCode/pdc2010Viewer/armv6 armv78797486528#570"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10 /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10 -output /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC100#
-
-CCreateUniversalBinary /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer normal "armv6 armv7"
-s309828374.990796
-e309828374.996097
-r1
-xCreateUniversalBinary
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer
-xnormal
-xarmv6 armv7
-lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer normal "armv6 armv7"309828374#309828375#0(0"0(0#0#53"/Users/Ryan/Documents/XCode/pdc2010Viewer/armv6 armv78785134560#602"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer -output /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer0#
-
-CGenerateDSYMFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app.dSYM /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10
-s309828610.912703
-e309828611.016416
-r1
-xGenerateDSYMFile
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app.dSYM
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10
-lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/PDC10.app.dSYM build/Debug-iphoneos/PDC10.app/PDC10309828610#309828611#0(0"0(0#0#78"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC108794764768#403"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/usr/bin/dsymutil" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PDC10 -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app.dSYM0#
-
-CGenerateDSYMFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app.dSYM /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer
-s309828374.996230
-e309828375.119831
-r1
-xGenerateDSYMFile
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app.dSYM
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer
-lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/pdc2010Viewer.app.dSYM build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer309828374#309828375#0(0"0(0#0#94"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer8784286752#427"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/usr/bin/dsymutil" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/pdc2010Viewer -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app.dSYM0#
-
-CLd /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10 normal armv6
-s309828610.763359
-e309828610.864769
-r1
-xLd
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10
-xnormal
-xarmv6
-lSLF07#2@134"Link /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10309828610#309828610#0(0"0(0#0#0"8806983584#1194"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -arch armv6 -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -L/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -L/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -L/Users/Ryan/Documents/XCode/pdc2010Viewer/../ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -filelist /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC10.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -lMSODataLib -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/PDC100#
-
-CLd /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer normal armv6
-s309828374.863597
-e309828374.990215
-r1
-xLd
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer
-xnormal
-xarmv6
-lSLF07#2@142"Link /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer309828374#309828375#0(0"0(0#0#0"8785576448#1210"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -arch armv6 -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -L/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -L/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -L/Users/Ryan/Documents/XCode/pdc2010Viewer/../ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -filelist /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -lMSODataLib -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv6/pdc2010Viewer0#
-
-CLd /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10 normal armv7
-s309828610.811522
-e309828610.904269
-r1
-xLd
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10
-xnormal
-xarmv7
-lSLF07#2@134"Link /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10309828610#309828610#0(0"0(0#0#0"8802777728#1194"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -arch armv7 -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -L/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -L/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -L/Users/Ryan/Documents/XCode/pdc2010Viewer/../ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -filelist /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC10.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -lMSODataLib -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/PDC100#
-
-CLd /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer normal armv7
-s309828374.866887
-e309828374.990681
-r1
-xLd
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer
-xnormal
-xarmv7
-lSLF07#2@142"Link /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer309828374#309828375#0(0"0(0#0#0"8784457248#1210"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -arch armv7 -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -L/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -L/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -L/Users/Ryan/Documents/XCode/pdc2010Viewer/../ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -filelist /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -lMSODataLib -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/Objects-normal/armv7/pdc2010Viewer0#
-
-CProcessInfoPlistFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Info.plist pdc2010Viewer-Info.plist
-s309828608.028325
-e309828608.033728
-r1
-xProcessInfoPlistFile
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Info.plist
-xpdc2010Viewer-Info.plist
-lSLF07#2@32"Process pdc2010Viewer-Info.plist309828608#309828608#0(0"0(0#0#66"/Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer-Info.plist8803449440#598"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility pdc2010Viewer-Info.plist -genpkginfo /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/ResourceRules.plist -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/Info.plist0#
-
-CProcessInfoPlistFile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Info.plist pdc2010Viewer-Info.plist
-s309814381.720185
-e309814381.723674
-r1
-xProcessInfoPlistFile
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Info.plist
-xpdc2010Viewer-Info.plist
-lSLF07#2@32"Process pdc2010Viewer-Info.plist309814381#309814381#0(0"0(0#0#66"/Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer-Info.plist8620532704#622"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility pdc2010Viewer-Info.plist -genpkginfo /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/ResourceRules.plist -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/Info.plist0#
-
-CProcessPCH /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch.gch pdc2010Viewer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309828608.627363
-e309828609.903169
-r1
-xProcessPCH
-x/var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch.gch
-xpdc2010Viewer_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile pdc2010Viewer_Prefix.pch309828608#309828609#0(0"0(0#0#66"/Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer_Prefix.pch8804335104#6729"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv7 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -c /Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer_Prefix.pch -o /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-cebrlyetzyfpfubhvwhzmtwmintc/pdc2010Viewer_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch.gch pdc2010Viewer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309828608.625773
-e309828609.903757
-r1
-xProcessPCH
-x/var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch.gch
-xpdc2010Viewer_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile pdc2010Viewer_Prefix.pch309828608#309828609#0(0"0(0#0#66"/Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer_Prefix.pch8804990944#6729"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk" -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-generated-files.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-own-target-headers.hmap -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-all-target-headers.hmap -iquote /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10-project-headers.hmap -F/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/include -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1 -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneDeviceLibs/iPhone_Device_4.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.1/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.12/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.13/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_3.2/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.0/release -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/debug -I/Users/Ryan/Documents/XCode/ODataSDK/framework/bin/odatalib/lib/iPhoneSimulatorLibs/iPhone_Simulator_4.1/release -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources/armv6 -I/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/DerivedSources -c /Users/Ryan/Documents/XCode/pdc2010Viewer/pdc2010Viewer_Prefix.pch -o /var/folders/NI/NInXgGQOH+09nPOyorzT2k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pdc2010Viewer_Prefix-fiwiasmbiwymzvcchjeheeyajqxj/pdc2010Viewer_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent
-s309828611.021854
-e309828611.075600
-r1
-xProcessProductPackaging
-x/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent
-lSLF07#2@199"ProcessProductPackaging "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent309828611#309828611#0(0"0(0#0#114"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent8737318624#486"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" -entitlements -format xml -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/PDC10.xcent0#
-
-CProcessProductPackaging "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent
-s309814381.734486
-e309814381.749874
-r1
-xProcessProductPackaging
-x/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent
-lSLF07#2@207"ProcessProductPackaging "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent309814381#309814381#0(0"0(0#0#122"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent8622263936#494"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist" -entitlements -format xml -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/pdc2010Viewer.build/Debug-iphoneos/pdc2010Viewer.build/pdc2010Viewer.xcent0#
-
-CProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/865611D0-87C8-4BAE-9EE2-638897A9CF2B.mobileprovision" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-s309812931.854997
-e309812931.895335
-r1
-xProcessProductPackaging
-x/Users/Ryan/Library/MobileDevice/Provisioning Profiles/865611D0-87C8-4BAE-9EE2-638897A9CF2B.mobileprovision
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-lSLF07#2@197"ProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/865611D0-87C8-4BAE-9EE2-638897A9CF2B.mobileprovision" build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision309812931#309812931#0(0"0(0#0#105"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision8634358336#458"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/865611D0-87C8-4BAE-9EE2-638897A9CF2B.mobileprovision" -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/embedded.mobileprovision
-s309828611.016563
-e309828611.018887
-r1
-xProcessProductPackaging
-x/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/embedded.mobileprovision
-lSLF07#2@189"ProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" build/Debug-iphoneos/PDC10.app/embedded.mobileprovision309828611#309828611#0(0"0(0#0#97"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/embedded.mobileprovision8790557760#450"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-s309814381.725600
-e309814381.731466
-r1
-xProcessProductPackaging
-x/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-lSLF07#2@197"ProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision309814381#309814381#0(0"0(0#0#105"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision8613412704#458"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/9CEA8C50-6E3E-450A-9C5F-59AD0C2A40F9.mobileprovision" -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/F4ACD303-0225-4836-8D1C-3E4ED0A0F68A.mobileprovision" /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-s309811012.236499
-e309811012.349907
-r1
-xProcessProductPackaging
-x/Users/Ryan/Library/MobileDevice/Provisioning Profiles/F4ACD303-0225-4836-8D1C-3E4ED0A0F68A.mobileprovision
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision
-lSLF07#2@197"ProcessProductPackaging "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/F4ACD303-0225-4836-8D1C-3E4ED0A0F68A.mobileprovision" build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision309811012#309811012#0(0"0(0#0#105"/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision8614297920#458"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Ryan/Library/MobileDevice/Provisioning Profiles/F4ACD303-0225-4836-8D1C-3E4ED0A0F68A.mobileprovision" -o /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app/embedded.mobileprovision0#
-
-CTouch /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-s309828611.018939
-e309828611.021707
-r1
-xTouch
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app
-lSLF07#2@78"Touch /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app309828611#309828611#0(0"0(0#0#0"8787973952#292"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/PDC10.app0#
-
-CTouch /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app
-s309828375.120460
-e309828375.124047
-r1
-xTouch
-x/Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app
-lSLF07#2@86"Touch /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app309828375#309828375#0(0"0(0#0#0"8781562976#300"    cd /Users/Ryan/Documents/XCode/pdc2010Viewer    setenv PATH "/Developer/Xcode 3.2.4/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/Xcode 3.2.4/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Ryan/Documents/XCode/pdc2010Viewer/build/Debug-iphoneos/pdc2010Viewer.app0#
-
